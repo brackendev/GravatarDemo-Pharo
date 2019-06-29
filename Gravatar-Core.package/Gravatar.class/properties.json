@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "brackendev 6/26/2019 16:02",
+	"super" : "Object",
+	"category" : "Gravatar-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Gravatar",
+	"type" : "normal"
+}
