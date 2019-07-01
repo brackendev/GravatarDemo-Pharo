@@ -1,4 +1,5 @@
 examples
 exampleRetrieveImageForEmail
-	(Gravatar retrieveImageForEmail: 'email@example.com')
-		inspect
+	<sampleInstance>
+	^ (Gravatar retrieveImageForEmail: 'email@example.com')
+	

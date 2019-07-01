@@ -1,4 +1,4 @@
 examples
 exampleRetrieveProfileForEmail
-	(Gravatar retrieveProfileForEmail: 'email@example.com')
-		inspect
+	<sampleInstance>
+	^ Gravatar retrieveProfileForEmail: 'email@example.com'

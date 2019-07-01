@@ -1,6 +1,7 @@
 examples
 exampleRetrieveImageForEmailSizeRating
-	(Gravatar
+	<sampleInstance>
+	^ Gravatar
 		retrieveImageForEmail: 'email@example.com'
 		size: 200
-		rating: 'pg') inspect
+		rating: 'pg'
