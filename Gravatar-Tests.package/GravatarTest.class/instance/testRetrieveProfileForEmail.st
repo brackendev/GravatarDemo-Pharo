@@ -1,6 +1,6 @@
 tests
 testRetrieveProfileForEmail
-	self
-		assert:
-			((Gravatar retrieveProfileForEmail: 'email@example.com')
-				isMemberOf: Dictionary)
+	| response |
+	response := Gravatar retrieveProfileForEmail: 'email@example.com'.
+	self assert: (response includesKey: #profileUrl) equals: true.
+	
