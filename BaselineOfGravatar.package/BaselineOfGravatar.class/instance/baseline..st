@@ -4,16 +4,13 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				project: 'ZincHTTPComponents'
-				with: [ spec
-						className: #ConfigurationOfZincHTTPComponents;
-						versionString: '3.0.1';
-						repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
+				baseline: 'ZincHTTPComponents'
+				with: [ spec repository: 'github://svenvc/zinc/repository' ].
 			spec
-				project: 'Neo JSON'
-				with: [ spec
-						className: 'ConfigurationOfNeoJSON';
-						versionString: #stable;
-						repository: 'http://mc.stfx.eu/Neo' ].
+				configuration: 'NeoJSON'
+				with: [ spec repository: 'github://svenvc/NeoJSON/repository' ].
 			spec package: 'Gravatar-Core'.
-			spec package: 'Gravatar-Tests'  with: [ spec requires: #('Gravatar-Core') ] ]
+			spec
+				package: 'Gravatar-Tests'
+				with: [ spec requires: #('Gravatar-Core') ]
+			]
