@@ -53,13 +53,6 @@ Gravatar exampleRetrieveProfileForEmail.
 (Gravatar retrieveProfileForEmail: 'email@example.com') inspect.
 ```
 
-## Acknowledgements
-
-* [Sven Van Caekenberghe](https://github.com/svenvc) and [contributors](https://github.com/svenvc/NeoJSON/contributors) for [NeoJSON](http://stfx.eu), an elegant and efficient standalone Smalltalk framework to read and write JSON converting to or from Smalltalk objects.
-* [Sven Van Caekenberghe](https://github.com/svenvc) and [contributors](https://github.com/svenvc/zinc/graphs/contributors) for the [Zinc HTTP Components](http://stfx.eu), the open-source Smalltalk framework to deal with the HTTP networking protocol.
-* The [Pharo team](https://github.com/orgs/pharo-project/people) and [contributors](https://github.com/pharo-project/pharo/graphs/contributors) for [Pharo](http://www.pharo.org/), the pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
-* The [Automattic](http://automattic.com/) team for running and supporting Gravatar's free service.
-
 ## Author
 
 [brackendev](https://www.github.com/brackendev)
