@@ -57,7 +57,6 @@ Gravatar exampleRetrieveProfileForEmail.
 
 * The [Automattic](http://automattic.com/) team for running and supporting Gravatar's free service.
 * The [Pharo team](https://github.com/orgs/pharo-project/people) and [contributors](https://github.com/pharo-project/pharo/graphs/contributors) for [Pharo](http://www.pharo.org/), the pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
-* [Eliot Miranda](http://www.mirandabanda.org/cogblog/microbio/), the [OpenSmalltalk team](https://github.com/orgs/OpenSmalltalk/people), and [contributors](https://github.com/OpenSmalltalk/opensmalltalk-vm/graphs/contributors) for [OpenSmalltalk](https://github.com/OpenSmalltalk/opensmalltalk-vm) ([Cog](http://www.mirandabanda.org/cogblog/about-cog/)), the cross-platform virtual machine for Squeak, Pharo, Cuis, and Newspeak.
 
 ## Author
 
