@@ -53,6 +53,13 @@ Gravatar exampleRetrieveProfileForEmail.
 (Gravatar retrieveProfileForEmail: 'email@example.com') inspect.
 ```
 
+## Acknowledgements
+
+This project makes use of the following third-party libraries:
+
+* [NeoJSON](https://github.com/svenvc/NeoJSON)
+* [Zinc HTTP Components](https://github.com/svenvc/zinc)
+
 ## Author
 
 [brackendev](https://www.github.com/brackendev)
