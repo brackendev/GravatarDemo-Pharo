@@ -5,26 +5,25 @@ _My Gravatar demo projects are for users to get acquainted with languages and pl
 GravatarDemo-Pharo
 ==================
 
-**[Pharo](http://www.pharo.org/) implementation to interact with the [Gravatar API](https://en.gravatar.com/site/implement/).**
+**[Pharo](https://www.pharo.org/) implementation to interact with the [Gravatar API](https://en.gravatar.com/site/implement/).**
 
-* [Pharo 7](http://www.pharo.org/) reference platform.
+* [Pharo 7](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
 
-1. Install and setup [Pharo](http://www.pharo.org/).
-2. In a Pharo playground, evaluate:
+In a Playground, evaluate:
 
-    ```smalltalk
-    Metacello new 
-      repository: 'github://brackendev/GravatarDemo-Pharo';
-      baseline: 'Gravatar';
-      load.
-    ```
+```smalltalk
+Metacello new 
+  repository: 'github://brackendev/GravatarDemo-Pharo';
+  baseline: 'Gravatar';
+  load.
+```
 
 ## Example Usage
 
-In a Pharo playground, evaluate:
+In a Playground, evaluate:
 
 ```smalltalk
 Gravatar exampleRetrieveImageForEmail.
