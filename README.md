@@ -27,13 +27,7 @@ In a Playground, evaluate:
 
 ```smalltalk
 Gravatar exampleRetrieveImageForEmail.
-```
-
-```smalltalk
 Gravatar exampleRetrieveImageForEmailSizeRating.
-```
-
-```smalltalk
 Gravatar exampleRetrieveProfileForEmail.
 ```
 
