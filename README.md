@@ -1,4 +1,4 @@
-_My Gravatar demo projects are for users to get acquainted with languages and platforms with something more than a "Hello World" example. Versions are available for [Clojure](https://github.com/brackendev/GravatarDemo-Clojure), [F#](https://github.com/brackendev/GravatarDemo-FSharp), [Newspeak](https://github.com/brackendev/GravatarDemo-Newspeak), [Pharo](https://github.com/brackendev/GravatarDemo-Pharo), and [Squeak](https://github.com/brackendev/GravatarDemo-Squeak)._
+_My Gravatar demo projects are for users to get acquainted with languages and platforms with something more than a "Hello World" example. Versions are available for [Clojure](https://github.com/brackendev/GravatarDemo-Clojure), [F#](https://github.com/brackendev/GravatarDemo-FSharp), [Newspeak](https://github.com/brackendev/GravatarDemo-Newspeak), [Pharo](https://github.com/brackendev/GravatarDemo-Pharo), [Racket](https://github.com/brackendev/GravatarDemo-Racket), and [Squeak](https://github.com/brackendev/GravatarDemo-Squeak)._
 
 - - -
 
@@ -12,7 +12,8 @@ GravatarDemo-Pharo
 
 ## Installation
 
-In a Playground, evaluate:
+* Install and run [Pharo](https://www.pharo.org/).
+* In a Playground, evaluate:
 
 ```smalltalk
 Metacello new 
@@ -23,7 +24,7 @@ Metacello new
 
 ## Example Usage
 
-In a Playground, evaluate:
+Evaluate in a Playground:
 
 ```smalltalk
 Gravatar exampleRetrieveImageForEmail.
@@ -65,6 +66,7 @@ GravatarDemo-Pharo is released under the MIT license. See the LICENSE file for m
 
 ## Useful Links
 
+* [/r/smalltalk](https://www.reddit.com/r/smalltalk/) [Reddit]
 * [@pharoproject](https://twitter.com/pharoproject) [Twitter]
 * [forum.world.st](http://forum.world.st/)
 * [pharo.org](http://www.pharo.org/)
