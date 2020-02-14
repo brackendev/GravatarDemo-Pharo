@@ -12,8 +12,8 @@ GravatarDemo-Pharo
 
 ## Installation
 
-* Install and run [Pharo](https://www.pharo.org/).
-* In a Playground, evaluate:
+1. Install and run [Pharo](https://www.pharo.org/).
+2. In a Playground, evaluate:
 
 ```smalltalk
 Metacello new 
