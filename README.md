@@ -13,7 +13,7 @@ GravatarDemo-Pharo
 ## Installation
 
 1. Install and run [Pharo](https://www.pharo.org/).
-2. In a Playground, evaluate:
+2. Evaluate in a Playground:
 
 ```smalltalk
 Metacello new 
