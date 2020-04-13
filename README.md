@@ -7,7 +7,7 @@ GravatarDemo-Pharo
 
 **[Pharo](https://www.pharo.org/) implementation to interact with the [Gravatar API](https://en.gravatar.com/site/implement/).**
 
-* [Pharo 7.0](https://www.pharo.org/) reference platform.
+* [Pharo 8.0](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
