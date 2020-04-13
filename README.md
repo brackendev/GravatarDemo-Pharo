@@ -7,18 +7,21 @@ GravatarDemo-Pharo
 
 **[Pharo](https://www.pharo.org/) implementation to interact with the [Gravatar API](https://en.gravatar.com/site/implement/).**
 
-* [Pharo 7](https://www.pharo.org/) reference platform.
+* [Pharo 7.0](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
 
-1. Install and run [Pharo](https://www.pharo.org/).
-2. Evaluate in a Playground:
+1. Evaluate in a Playground:
 
 ```smalltalk
 Metacello new 
-  repository: 'github://brackendev/GravatarDemo-Pharo';
-  baseline: 'Gravatar';
+  repository: 'github://brackendev/GravatarDemo-Pharo';
+  baseline: 'Gravatar';
+  onConflict: [ :ex | ex useIncoming ];
+  onUpgrade: [ :ex | ex useIncoming ];
+  onDowngrade: [ :ex | ex useLoaded ];
+  ignoreImage;
   load.
 ```
 
