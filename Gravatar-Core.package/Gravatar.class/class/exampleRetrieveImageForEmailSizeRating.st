@@ -1,7 +1,7 @@
 examples
 exampleRetrieveImageForEmailSizeRating
 	<sampleInstance>
-	^ Gravatar
+	^ self
 		retrieveImageForEmail: 'email@example.com'
 		size: 200
 		rating: 'pg'

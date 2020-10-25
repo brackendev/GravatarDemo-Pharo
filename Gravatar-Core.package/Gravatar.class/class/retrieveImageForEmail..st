@@ -1,3 +1,3 @@
 public
 retrieveImageForEmail: emailString
-	^ self retrieveImageForEmail: emailString size: 80 rating: 'pg'
+	^ self retrieveImageForEmail: emailString size: nil rating: nil
