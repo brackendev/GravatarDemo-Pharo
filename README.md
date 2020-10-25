@@ -12,7 +12,7 @@ GravatarDemo-Pharo
 
 ## Installation
 
-1. Evaluate in a Playground:
+Evaluate in a Playground:
 
 ```smalltalk
 Metacello new 
