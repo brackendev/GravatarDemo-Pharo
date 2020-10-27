@@ -12,7 +12,7 @@ GravatarDemo-Pharo
 
 ## Installation
 
-Evaluate in a Playground:
+In a Playground, _Do it_:
 
 ```smalltalk
 Metacello new 
@@ -27,7 +27,7 @@ Metacello new
 
 ## Example Usage
 
-Evaluate in a Playground:
+In a Playground, _Do it_:
 
 ```smalltalk
 Gravatar exampleRetrieveImageForEmail.
