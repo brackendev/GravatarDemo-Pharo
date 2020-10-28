@@ -50,6 +50,10 @@ Gravatar exampleRetrieveProfileForEmail.
 (Gravatar retrieveProfileForEmail: 'email@example.com') inspect.
 ```
 
+## TODO
+
+- [ ] Support Pharo 9 (when stable)
+
 ## Acknowledgements
 
 This project makes use of the following third-party libraries:
