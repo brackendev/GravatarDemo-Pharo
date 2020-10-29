@@ -16,7 +16,7 @@ In a Playground, _Do it_:
 
 ```smalltalk
 Metacello new 
-  repository: 'github://brackendev/GravatarDemo-Pharo:v1.0/src';
+  repository: 'github://brackendev/GravatarDemo-Pharo:v1.0.0/src';
   baseline: 'Gravatar';
   onConflict: [ :ex | ex useIncoming ];
   onUpgrade: [ :ex | ex useIncoming ];
