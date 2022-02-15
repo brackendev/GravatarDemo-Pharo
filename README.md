@@ -18,9 +18,6 @@ In a Playground, _Do it_:
 Metacello new 
   repository: 'github://brackendev/GravatarDemo-Pharo:v1.0.0/src';
   baseline: 'Gravatar';
-  onConflict: [ :ex | ex useIncoming ];
-  onUpgrade: [ :ex | ex useIncoming ];
-  onDowngrade: [ :ex | ex useLoaded ];
   load.
 ```
 
