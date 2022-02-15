@@ -7,7 +7,7 @@ GravatarDemo-Pharo
 
 **[Pharo](https://www.pharo.org/) implementation to interact with the [Gravatar API](https://en.gravatar.com/site/implement/).**
 
-* [Pharo 8.0](https://www.pharo.org/) reference platform.
+* [Pharo 9.0](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
@@ -48,10 +48,6 @@ Gravatar exampleRetrieveProfileForEmail.
 "Retrieve the profile for the email address, open in an inspector"
 (Gravatar retrieveProfileForEmail: 'email@example.com') inspect.
 ```
-
-## TODO
-
-- [ ] Support Pharo 9 (when stable)
 
 ## Acknowledgements
 
