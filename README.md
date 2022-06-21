@@ -7,7 +7,7 @@ GravatarDemo-Pharo
 
 **[Pharo](https://www.pharo.org/) implementation to interact with the [Gravatar API](https://en.gravatar.com/site/implement/).**
 
-* [Pharo 9.0](https://www.pharo.org/) reference platform.
+* [Pharo 10](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
@@ -26,9 +26,9 @@ Metacello new
 In a Playground, _Do it_:
 
 ```smalltalk
-Gravatar exampleRetrieveImageForEmail.
-Gravatar exampleRetrieveImageForEmailSizeRating.
-Gravatar exampleRetrieveProfileForEmail.
+Gravatar exampleRetrieveImageForEmail inspect.
+Gravatar exampleRetrieveImageForEmailSizeRating inspect.
+Gravatar exampleRetrieveProfileForEmail inspect.
 ```
 
 ```smalltalk
